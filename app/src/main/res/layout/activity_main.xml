@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase Image Upload "
+        android:textSize="10pt">
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select Photo"
+        android:id="@+id/btnselectPhoto"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_width="fill_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_height="wrap_content"
+            android:text="Load"
+            android:layout_width="fill_parent">
+        </Button>
+        <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
